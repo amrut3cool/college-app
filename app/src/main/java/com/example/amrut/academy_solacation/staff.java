@@ -19,7 +19,7 @@ public class staff extends Activity {
         bt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nw3 =new Intent(getApplication(), menu.class);
+                Intent nw3 =new Intent(getApplication(), MainActivity.class);
                 startActivity(nw3);
             }
         });
